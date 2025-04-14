@@ -101,14 +101,57 @@
                                     <option value="nave">Nave Espacial</option>
                                     <option value="mistico">Criatura Mística</option>
                                     <option value="tecnologico">Dispositivo Portátil de Deslocamento</option>
-                                    <option value="null" disabled selected hidden></option>
+                                    <option value="null" selected hidden></option>
                                 </select>
                             </div>
                             <div class="mb-3">
                                 <label for="dias" class="input-label">Tempo em dias: </label>
                                 <input type="number" name="dias" id="tempo" class="form-control" value="1" required>
                             </div>
+                            <button class="btn btn-success w-100" type="submit" name="calcular">Calcular</button>
                         </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- tabela de veículos -->
+        <div class="row mt-4">
+            <div class="col-12">
+                <div class="card">
+                    <div class="card-header">
+                        <h4 class="mb-0">Veículos cadastrados</h4>
+                    </div>
+                    <div class="card-body">
+                        <div class="table-responsive">
+                            <table class="table table-striped table-hover">
+                                <thead>
+                                    <th>Tipo</th>
+                                    <th>Modelo</th>
+                                    <th>Placa</th>
+                                    <th>Status</th>
+                                    <th>Ações</th>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Críatura Mística</td>
+                                        <td>Búfalo voador</td>
+                                        <td>Appa</td>
+                                        <td>
+                                            <span class="badge bg-warning">
+                                                Alugado
+                                            </span>
+                                        </td>
+                                        <td>
+                                            <!-- formulario de ações -->
+                                            <div class="action-wrapper">
+                                                
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
                     </div>
                 </div>
             </div>
