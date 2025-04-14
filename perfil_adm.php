@@ -12,6 +12,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <!-- bootstrap icones -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- ce ese ese -->
+    <link rel="stylesheet" href="style.css">
 </head>
 <body class="container py-4">
     <div class="container py-4">
@@ -145,7 +147,20 @@
                                         <td>
                                             <!-- formulario de ações -->
                                             <div class="action-wrapper">
-                                                
+                                                <form action="POST" class="btn-group-actions">
+                                                    <!-- botôm de delete (sempre disponível pro adm) -->
+                                                    <button class="btn btn-danger btn-sm delete-btn" type="submit" name="deletar">Deletar</button>
+
+                                                    <!-- botoins condicionais -->
+                                                    <div class="rent-group">
+                                                        <!-- veículo alugado -->
+                                                        <button class="btn btn-warning btn-sm" type="submit" name="devolver">Devolver</button>
+                                                        
+                                                        <!-- veículo disponível -->
+                                                        <input type="number" name="dias" class="form-control" value="1" min="1" required>
+                                                        <button class="btn btn-primary btn-sm" type="submit" name="alugar">Alugar</button>
+                                                    </div>
+                                                </form>
                                             </div>
                                         </td>
                                     </tr>
