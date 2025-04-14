@@ -137,7 +137,7 @@
                                 <tbody>
                                     <tr>
                                         <td>Críatura Mística</td>
-                                        <td>Búfalo voador</td>
+                                        <td>Bisão voador</td>
                                         <td>Appa</td>
                                         <td>
                                             <span class="badge bg-warning">
@@ -154,10 +154,97 @@
                                                     <!-- botoins condicionais -->
                                                     <div class="rent-group">
                                                         <!-- veículo alugado -->
-                                                        <button class="btn btn-warning btn-sm" type="submit" name="devolver">Devolver</button>
+                                                        <button class="btn btn-warning btn-sm hidden" type="submit" name="devolver">Devolver</button>
                                                         
                                                         <!-- veículo disponível -->
-                                                        <input type="number" name="dias" class="form-control" value="1" min="1" required>
+                                                        <input type="number" name="dias" class="form-control days-input" value="1" min="1" required>
+                                                        <button class="btn btn-primary btn-sm" type="submit" name="alugar">Alugar</button>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Aeronave</td>
+                                        <td>A-10 Warthog</td>
+                                        <td>SPEU5A32</td>
+                                        <td>
+                                            <span class="badge bg-success">
+                                                Disponível
+                                            </span>
+                                        </td>
+                                        <td>
+                                            <!-- formulario de ações -->
+                                            <div class="action-wrapper">
+                                                <form action="POST" class="btn-group-actions">
+                                                    <!-- botôm de delete (sempre disponível pro adm) -->
+                                                    <button class="btn btn-danger btn-sm delete-btn" type="submit" name="deletar">Deletar</button>
+
+                                                    <!-- botoins condicionais -->
+                                                    <div class="rent-group">
+                                                        <!-- veículo alugado -->
+                                                        <button class="btn btn-warning btn-sm hidden" type="submit" name="devolver">Devolver</button>
+                                                        
+                                                        <!-- veículo disponível -->
+                                                        <input type="number" name="dias" class="form-control days-input" value="1" min="1" required>
+                                                        <button class="btn btn-primary btn-sm" type="submit" name="alugar">Alugar</button>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Carro</td>
+                                        <td>Gol</td>
+                                        <td>MFHG2A23</td>
+                                        <td>
+                                            <span class="badge bg-success">
+                                                Disponível
+                                            </span>
+                                        </td>
+                                        <td>
+                                            <!-- formulario de ações -->
+                                            <div class="action-wrapper">
+                                                <form action="POST" class="btn-group-actions">
+                                                    <!-- botôm de delete (sempre disponível pro adm) -->
+                                                    <button class="btn btn-danger btn-sm delete-btn" type="submit" name="deletar">Deletar</button>
+
+                                                    <!-- botoins condicionais -->
+                                                    <div class="rent-group">
+                                                        <!-- veículo alugado -->
+                                                        <button class="btn btn-warning btn-sm hidden" type="submit" name="devolver">Devolver</button>
+                                                        
+                                                        <!-- veículo disponível -->
+                                                        <input type="number" name="dias" class="form-control days-input" value="1" min="1" required>
+                                                        <button class="btn btn-primary btn-sm" type="submit" name="alugar">Alugar</button>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Nave Espacial</td>
+                                        <td>20XX INTRASTELLAR</td>
+                                        <td>18553-EA-BR</td>
+                                        <td>
+                                            <span class="badge bg-success">
+                                                Disponível
+                                            </span>
+                                        </td>
+                                        <td>
+                                            <!-- formulario de ações -->
+                                            <div class="action-wrapper">
+                                                <form action="POST" class="btn-group-actions">
+                                                    <!-- botôm de delete (sempre disponível pro adm) -->
+                                                    <button class="btn btn-danger btn-sm delete-btn" type="submit" name="deletar">Deletar</button>
+
+                                                    <!-- botoins condicionais -->
+                                                    <div class="rent-group">
+                                                        <!-- veículo alugado -->
+                                                        <button class="btn btn-warning btn-sm hidden" type="submit" name="devolver">Devolver</button>
+                                                        
+                                                        <!-- veículo disponível -->
+                                                        <input type="number" name="dias" class="form-control days-input" value="1" min="1" required>
                                                         <button class="btn btn-primary btn-sm" type="submit" name="alugar">Alugar</button>
                                                     </div>
                                                 </form>
